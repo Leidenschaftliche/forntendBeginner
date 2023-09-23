@@ -1,0 +1,17 @@
+.flexClass{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexClass div{
+    min-width: fit-content;
+}
+
+#ptext{
+    text-align: center;
+}
